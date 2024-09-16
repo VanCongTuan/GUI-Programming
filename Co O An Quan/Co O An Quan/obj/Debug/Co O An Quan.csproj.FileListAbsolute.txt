@@ -1,0 +1,28 @@
+D:\ltgd\Co O An Quan\Co O An Quan\bin\Debug\Co O An Quan.exe.config
+D:\ltgd\Co O An Quan\Co O An Quan\bin\Debug\Co O An Quan.exe
+D:\ltgd\Co O An Quan\Co O An Quan\bin\Debug\Co O An Quan.pdb
+D:\ltgd\Co O An Quan\Co O An Quan\obj\Debug\Co O An Quan.csproj.AssemblyReference.cache
+D:\ltgd\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.Properties.Resources.resources
+D:\ltgd\Co O An Quan\Co O An Quan\obj\Debug\Co O An Quan.csproj.GenerateResource.cache
+D:\ltgd\Co O An Quan\Co O An Quan\obj\Debug\Co O An Quan.csproj.CoreCompileInputs.cache
+D:\ltgd\Co O An Quan\Co O An Quan\obj\Debug\Co O An Quan.exe
+D:\ltgd\Co O An Quan\Co O An Quan\obj\Debug\Co O An Quan.pdb
+D:\ltgd\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.InformationAboutCoAnQuan.resources
+D:\ltgd\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.FrmCoAnQuan.resources
+D:\ltgd\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.frmStart.resources
+D:\ltgd\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.frmPlayer.resources
+D:\ltgd\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.frmPlayer2.resources
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\obj\Debug\Co O An Quan.csproj.AssemblyReference.cache
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.FrmCoAnQuan.resources
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.frmPlayer.resources
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.frmPlayer2.resources
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.frmStart.resources
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.InformationAboutCoAnQuan.resources
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\obj\Debug\Co_O_An_Quan.Properties.Resources.resources
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\obj\Debug\Co O An Quan.csproj.GenerateResource.cache
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\obj\Debug\Co O An Quan.csproj.CoreCompileInputs.cache
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\obj\Debug\Co O An Quan.exe
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\obj\Debug\Co O An Quan.pdb
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\bin\Debug\Co O An Quan.exe.config
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\bin\Debug\Co O An Quan.exe
+D:\Van_Cong_Tuan_GameOAnQuan\Co O An Quan\Co O An Quan\bin\Debug\Co O An Quan.pdb

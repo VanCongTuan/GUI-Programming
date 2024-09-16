@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A81791B7-0014-4E6D-AB64-7C0F8F2FB65A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Co_O_An_Quan</RootNamespace>
+    <AssemblyName>Co O An Quan</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmPlayer2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlayer2.Designer.cs">
+      <DependentUpon>frmPlayer2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlayer.Designer.cs">
+      <DependentUpon>frmPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStart.Designer.cs">
+      <DependentUpon>frmStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuyDao.cs" />
+    <Compile Include="ToaDo.cs" />
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationAboutCoAnQuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformationAboutCoAnQuan.Designer.cs">
+      <DependentUpon>InformationAboutCoAnQuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlayer.resx">
+      <DependentUpon>frmPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlayer2.resx">
+      <DependentUpon>frmPlayer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStart.resx">
+      <DependentUpon>frmStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationAboutCoAnQuan.resx">
+      <DependentUpon>InformationAboutCoAnQuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huongdan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KhungLinh005.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KhungLinh105.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanNguyetTrai100.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Cờ Ô Ăn Quan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cờ Ô Ăn Quan 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cờ Ô Ăn Quan 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cho choi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cho choi2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cho choi 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cho choi player .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhập tên.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhập tên1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\107-512 conv.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\107-512 conv 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\107-512 conv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pre1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pre2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pre3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player2.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player2.11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player3.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player3.11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Player4.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Player5.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Player6.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cờ Ô Ăn Quan 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cờ Ô Ăn Quan 12.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

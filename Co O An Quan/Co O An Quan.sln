@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Co O An Quan", "Co O An Quan\Co O An Quan.csproj", "{A81791B7-0014-4E6D-AB64-7C0F8F2FB65A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Cờ Ô Ăn Quan", "Cờ Ô Ăn Quan\Cờ Ô Ăn Quan.vdproj", "{FDC2B180-BA65-4FF6-ADF7-3C9BFE0F5E29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81791B7-0014-4E6D-AB64-7C0F8F2FB65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81791B7-0014-4E6D-AB64-7C0F8F2FB65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81791B7-0014-4E6D-AB64-7C0F8F2FB65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81791B7-0014-4E6D-AB64-7C0F8F2FB65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC2B180-BA65-4FF6-ADF7-3C9BFE0F5E29}.Debug|Any CPU.ActiveCfg = Debug
+		{FDC2B180-BA65-4FF6-ADF7-3C9BFE0F5E29}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9BBA290-C07E-4084-8F86-E4607F973D7D}
+	EndGlobalSection
+EndGlobal
